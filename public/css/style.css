@@ -1,0 +1,482 @@
+body{
+    padding:0;
+    margin: 0;
+}
+/*<============navbar ==============>*/
+.nav-link:hover{
+    background: skyblue;
+    cursor: pointer;
+    transition: 1s ease;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+/*<===========login page style=====>*/
+#login{
+    margin-top: 10px;
+}
+#login:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+#container-fluid{
+    background-color:#0dcaf0 ;
+}
+/*-----navabar login button--*/
+
+#log:hover{
+    background-color: skyblue;
+
+
+}
+/*<========home page===========>*/
+#tac{
+    height: 100%;
+    width: 100%;
+
+}
+@media screen and (max-width: 600px) {
+    .container-fluid \bg-light {
+        width: 100%;
+    }
+}
+.cover.cover_text{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #fff; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    border-radius: 0;
+}
+.invest{
+    color: rebeccapurple;
+    font-family: Elephant;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.name{
+
+    font-weight: bold;
+    font-family: Gabriola;
+    color: #8c1c2e;
+    padding-left: 20px;
+}
+
+.home_image{
+    background-image: url("../img/up1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-position-y:bottom ;
+    height: 493px;
+    width: 740px;
+    position: relative;
+}
+.line{
+    border: 2px inset darkred;
+    color: #1a237e;
+    padding-left: 20px;
+}
+.icon {
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+.awesome{
+    margin-top: 25%;
+    color: #004d40;
+}
+.icons_name{
+    color: darkred;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.wise{
+    color: red;
+}
+#move{
+    width:50%;
+    padding-top: 25px;
+}
+
+#design{
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+/*<===========about page style=====>*/
+#about{
+    border:1px solid #2d3748;
+    height: 100%;
+    width: 100%;
+
+}
+.pix_dir{
+    display: inline-block;
+}
+.pix{
+    display: inline-block;
+}
+
+.tac{
+    font-weight: bold;
+    font-family: Roboto;
+    color: skyblue;
+    height: 100%;
+    width: 100%;
+
+}
+.about_us{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#acronyms{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.goals{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.about_tac, .goals h6{
+    font-family: Tahoma;
+    font-weight: bold;
+    color: skyblue;
+}
+#about{
+    background-color: #2d3748;
+    color: #fff;
+}
+.founder,.about_us h6{
+    font-weight: bold;
+    font-family: Tahoma;
+    color: skyblue;
+}
+.pix{
+    height: 250px;
+    width: 240px;
+    border-radius: 5px;
+}
+.pix_dir{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.pix_dir:hover{
+    background-color: rgb(62,62,62);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.pix:hover {
+    background-color: rgb(62,62,62);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+#board{
+    font-family: Tahoma;
+    font-weight: bold;
+    color: skyblue;
+}
+#pot{
+    color:skyblue;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+/*<=============admin style=======>*/
+.admin_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*<=========footer style==========>*/
+#footer{
+    position:relative;
+    width: 100%;
+    height:100px;
+}
+.btn\ btn-outline-light \btn-floating{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    border-radius: 40px;
+}
+.fab i{
+    color: #fff;
+
+}
+#quick:hover{
+    color:skyblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.text-white a:hover{
+    color:skyblue;
+    cursor: pointer;
+}
+
+/*<===============contact page==========>*/
+.ul_font{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.li_font{
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+}
+#contact_details{
+    font-weight: bold;
+    font-family: Tahoma;
+    color: skyblue;
+}
+#in_touch{
+
+    font-family: Tahoma;
+    font-weight: bold;
+    color: skyblue;
+}
+.star{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+/*<===========welcome page=======>*/
+
+.cover{
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/01.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: cover 4s;
+    margin-left: auto;
+}
+@keyframes cover {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.paragraph{
+    color: #fff;
+    font-size: 20px;
+    font-family: Tahoma;
+    text-shadow: #264d8b;
+    margin-left: auto;
+}
+@media screen and (max-width: 600px) {
+   .card {
+        width: 100%;
+   }
+}
+.cover_text{
+    position: absolute;
+    top: 50%;
+    right:5%;
+    transform: translate(-50%, -50%);
+    color:skyblue;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    animation:moveTotop;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+.banner{
+    animation:moveToLeft;
+    animation-duration: 3s;
+    margin-bottom: 10%;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+.para_sec{
+    margin-left: 20%;
+    animation: moveToRight;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+
+}
+@keyframes moveToLeft {
+    0%{
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+
+}@keyframes moveToRight {
+     0%{
+         transform: translateX(120px);
+         opacity: 0;
+     }
+     100%{
+         transform: translateX(0);
+         opacity:1;
+     }
+
+ }
+@keyframes moveTotop {
+    0%{
+        transform:translateY(0);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(120);
+        opacity:1;
+
+    }
+}
+.banner{
+    display: grid;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    transform: translate(20%, 20%);
+    color:deeppink;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+}
+.align-content-end{
+    text-align-last: end;
+    color: #fff;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 5%;
+}
+.blue{
+    color: deeppink;
+    font-size: 35px;
+    font-family: Tahoma;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.banner_service{
+    font-size: 20px;
+    font-family: Tahoma;
+    padding-top: 60px;
+
+}
+
+.para_sec {
+    text-align: end;
+    margin-bottom: 20%;
+    font-size: 33px;
+}
+
+.main_head{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.welcome_header{
+    color: skyblue;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.city_gate{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-title{
+    color: skyblue;
+    font-weight: bold;
+}
+
+.card-body{
+    margin-left: 10px;
+}
+.card-title{
+    font-weight: bold;
+    font-family: Tahoma;
+}
+#service:hover{
+    transform: scale(1.01);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    background:#343a40;
+}
+
+/*<==========FAQ============>*/
+.questions{
+    font-weight: bold;
+    font-family: Tahoma;
+}
+/*<=====rules=======>*/
+#rules{
+    height: 100%;
+    width: 100%;
+}
+.doo{
+    color: #fff;
+    margin-top: 50px;
+}
+/*<==========admin panel style======>*/
+#carouselExampleControls{
+    height:40%;
+    width: 35%;
+}
+/*<========users=======>*/
+.td{
+    color:#000;
+}
+.float-left{
+    color: #000;
+    font-family: Tahoma;
+}
+#transaction{
+    color: #000;
+    font-family: Tahoma;
+}
+.user_head{
+    color: #000;
+    font-family: Tahoma;
+}
+#tac{
+    color: skyblue;
+    font-family:Tahoma;
+    font-weight: bold;
+}
+.text-white:hover{
+    color: skyblue;
+}
+
+/*<============request loan=======>*/
+#requestLoan{
+    height: 100vh;
+    width: 100%;
+}
+#button_re{
+    margin-left: 80%;
+    margin-bottom: 20px;
+
+}
+#requestLoan{
+    height: 100vh;
+    width: 100%;
+}
